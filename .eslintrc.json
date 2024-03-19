@@ -2,6 +2,11 @@
   "extends": [
     "next/core-web-vitals",
     "some-other-config-you-use",
+    "eslint:recommended",
+    "plugin:prettier/recommended",
     "prettier"
-  ]
+  ],
+  "rules": {
+    "prettier/prettier": "error"
+  }
 }
